@@ -1,0 +1,124 @@
+{
+  "alertBanner": {
+    "tag": "News",
+    "content": "Announcing Coherence 2.0 and CNC, the first open source IaC framework"
+  },
+
+  "introSection": {
+    "header": "Easy-mode for Cloud Deployment",
+    "description": "Coherence automates preview environments, CI/CD pipelines, and production deployments in your"
+  },
+
+  "bigFeatureSection": [
+    {
+      "id": 1,
+      "heading": {
+        "marked": "Ephemeral preview environments",
+        "normal": "created with every PR. Collaborate with frontend and backend support, custom domains, and more."
+      },
+      "link": "/",
+      "image": "/pictures/section/big-feature-1.png"
+    },
+    {
+      "id": 2,
+      "heading": {
+        "marked": "Automated terraform",
+        "normal": "does the heavy lifting for you. One simple yaml file continuously configures your infrastructure as code with cloud native services."
+      },
+      "link": "/",
+      "image": "/pictures/section/big-feature-2.png"
+    },
+    {
+      "id": 3,
+      "heading": {
+        "marked": "Managed CI/CD",
+        "normal": "offers configurable pipelines with database seeding, migrations, end-to-end tests, and parallelized unit tests."
+      },
+      "link": "/",
+      "image": "/pictures/section/big-feature-3.png"
+    },
+    {
+      "id": 4,
+      "heading": {
+        "marked": "Production deployments",
+        "normal": "are a click away. Rest assured, production lives in a separate cloud account and you control who has deploy access."
+      },
+      "link": "/",
+      "image": "/pictures/section/big-feature-4.png"
+    },
+    {
+      "id": 5,
+      "heading": {
+        "marked": "Cloud development environments",
+        "normal": "let you run code in the browser for editing, reviewing, and experimenting with your codebase. One click and it just works."
+      },
+      "link": "/",
+      "image": "/pictures/section/big-feature-5.png"
+    }
+  ],
+
+  "downFeatureSection": [
+    {
+      "id": 1,
+      "heading": "Secure",
+      "link": "/",
+      "image": "/pictures/section/down-feature-1.svg",
+      "description": "Configure your infrastructure in your own cloud, using best practices, automatically."
+    },
+    {
+      "id": 2,
+      "heading": "Compliant",
+      "link": "/",
+      "image": "/pictures/section/down-feature-2.svg",
+      "description": "Get an audit trail of your SDLC from requirements, to development, to testing & deployment."
+    },
+    {
+      "id": 3,
+      "heading": "Developer-native",
+      "link": "/",
+      "image": "/pictures/section/down-feature-3.svg",
+      "description": "Builds and deployments are surfaced intuitively, empowering your team regardless of DevOps experience."
+    },
+    {
+      "id": 4,
+      "heading": "Scalable",
+      "link": "/",
+      "image": "/pictures/section/down-feature-4.svg",
+      "description": "Coherence makes sure your cloud is there for your users, and that you are avoiding surprise costs from automation."
+    },
+    {
+      "id": 5,
+      "heading": "No Lock-in",
+      "link": "/",
+      "image": "/pictures/section/down-feature-5.svg",
+      "description": "You can cut off Coherence's access at any time — your infrastructure remains safe in your own cloud."
+    },
+    {
+      "id": 6,
+      "heading": "Cost-effective",
+      "image": "/pictures/section/down-feature-6.svg",
+      "description": "You get back engineering time and optimize your cloud deployments to lower your spend."
+    }
+  ],
+
+  "opinionSection": {
+    "opinions": [
+      {
+        "id": 1,
+        "quote": "Coherence sped up all of our workflows",
+        "description": "The Rounds' Journey to a Robust QA Process with Coherence.",
+        "picture": "/pictures/profile/griffin-tschurwald-picture.png",
+        "author": "Griffin Tschurwald",
+        "company": "/logos/the-rounds-logo.svg"
+      },
+      {
+        "id": 2,
+        "quote": "Coherence allows us to harness the capabilities of AWS in the simplest possible way",
+        "description": "Ultralight's Move from PaaS to the Cloud with Coherence.",
+        "picture": "/pictures/profile/shiv-ghai-picture.png",
+        "author": "Shiv Ghai",
+        "company": "/logos/ultralight-logo.svg"
+      }
+    ]
+  }
+}
