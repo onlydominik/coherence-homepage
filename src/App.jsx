@@ -2,7 +2,7 @@ import AlertBanner from "./components/AlertBanner.jsx";
 import BenefitCopySection from "./components/BenefitCopySection.jsx";
 import BigFeatureSection from "./components/BigFeatureSection/BigFeatureSection.jsx";
 import Container from "./components/Container.jsx";
-import DownFeatureSection from "./components/DownFeatureSection.jsx/DownFeatureSection.jsx";
+import DownFeatureSection from "./components/DownFeatureSection/DownFeatureSection.jsx";
 import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
 import InfrastructureSimplifier from "./components/InfrastructureSimplifierSection.jsx";
