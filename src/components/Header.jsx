@@ -16,7 +16,7 @@ export default function Header() {
             width="144"
             height="36"
             className="w-[9rem]"
-            src="/logos/logo.svg"
+            src="./logos/logo.svg"
             alt="Logo of Coherence"
           />
         </a>

@@ -25,7 +25,7 @@ export default function IntroSection() {
                   height="27"
                   loading="preload"
                   className="inline w-max"
-                  src="/logos/logo-aws.svg"
+                  src="./logos/logo-aws.svg"
                   alt="AWS Logo"
                 />
                 AWS
@@ -37,7 +37,7 @@ export default function IntroSection() {
                   loading="preload"
                   height="27"
                   className="inline w-max"
-                  src="/logos/logo-gcp.svg"
+                  src="./logos/logo-gcp.svg"
                   alt="GCP Logo"
                 />
                 GCP
@@ -63,22 +63,22 @@ export default function IntroSection() {
       </main>
       <picture className="block mt-10 xl:mt-24 min-h-20">
         <source
-          srcSet="/pictures/section/intro-main-mobile.webp"
+          srcSet="./pictures/section/intro-main-mobile.webp"
           media="(max-width: 768px)"
           type="image/webp"
         />
         <source
-          srcSet="/pictures/section/intro-main.webp"
+          srcSet="./pictures/section/intro-main.webp"
           media="(min-width: 769px)"
           type="image/webp"
         />
-        <source srcSet="/pictures/section/intro-main-mobile.png" media="(max-width: 48rem)" />
-        <source srcSet="/pictures/section/intro-main.png" media="(min-width: 48.0625rem)" />
+        <source srcSet="./pictures/section/intro-main-mobile.png" media="(max-width: 48rem)" />
+        <source srcSet="./pictures/section/intro-main.png" media="(min-width: 48.0625rem)" />
         <img
           width="1280"
           height="714"
           loading="preload"
-          src="/pictures/section/intro-main.png"
+          src="./pictures/section/intro-main.png"
           alt="Coherence overview feature"
         />
       </picture>
