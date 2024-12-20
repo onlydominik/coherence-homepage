@@ -1,0 +1,41 @@
+.burger {
+  color: red;
+}
+.burger .line {
+  transition: y 120ms ease-in 120ms, rotate 120ms ease-in,
+    opacity 0ms ease-in 120ms;
+  transform-origin: center;
+}
+
+.burger[aria-expanded="true"] .line {
+  transition: y 120ms ease-in, rotate 120ms ease-in 120ms,
+    opacity 0ms ease-in 120ms;
+  transform-origin: center;
+}
+
+.burger[aria-expanded="true"] :is(.top, .bottom) {
+  y: 45px;
+}
+
+.burger[aria-expanded="true"] .top {
+  rotate: 45deg;
+}
+
+.burger[aria-expanded="true"] .bottom {
+  rotate: -45deg;
+}
+
+.burger[aria-expanded="true"] .middle {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion) {
+  .burger[aria-expanded="true"] .line,
+  .burger .line {
+    transition: none;
+  }
+}
+
+.burger * {
+  pointer-events: none;
+}
