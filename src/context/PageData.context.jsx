@@ -1,5 +1,5 @@
-import { createContext } from "react";
-import useFetch from "../hooks/useFetch";
+import { createContext } from 'react';
+import useFetch from '../hooks/useFetch';
 
 export const pageDataContext = createContext({
   isLoading: null,
@@ -8,7 +8,7 @@ export const pageDataContext = createContext({
 });
 
 export function PageDataContextProvider({ children }) {
-  const { isLoading, data, error } = useFetch("/data.json");
+  const { isLoading, data, error } = useFetch('./data.json');
 
   return (
     <pageDataContext.Provider value={{ isLoading, data, error }}>
